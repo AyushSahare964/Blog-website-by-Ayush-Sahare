@@ -1,0 +1,114 @@
+/*Blog1 css*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font: 1em sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 20px; 
+    background-color: rgb(194, 239, 224);  
+    position: sticky;
+    box-shadow: 0 4px 6px 0 rgba(7, 15, 0, 0.1);
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(194, 239, 224);
+    border-radius: 50%;
+}
+.headbtn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headbtn li{
+    list-style: none;
+    padding: 0 18px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 40px;
+    top: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 6px 0 rgba(7, 15, 0, 0.1);
+    box-sizing: border-box;
+}
+.btn:hover{
+    background-color: #e6e345;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 40px;
+    top: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px 0 rgba(7, 15, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.btn1:hover{
+    background-color: #e6e345;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-style: oblique;
+}
+.blog1{
+    width: 45rem;
+    margin: 20px;
+    padding: 20px;
+    height: 25rem; ;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+    justify-content: center;
+    padding-right: 30px;
+    font-size: 1.3rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 64, 78);
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 0 4px 6px 0 rgba(7, 15, 0, 0.1);
+}
+.social li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 18px;
+}
